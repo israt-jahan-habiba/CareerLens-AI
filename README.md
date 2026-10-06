@@ -59,7 +59,7 @@ Most "resume analyzer" tutorials stop at "upload a PDF, print a score." CareerLe
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/CareerLens-AI.git
+git clone https://github.com/Israt-Isha/CareerLens-AI.git
 cd CareerLens-AI
 
 python -m venv venv
