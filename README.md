@@ -59,7 +59,7 @@ Most "resume analyzer" tutorials stop at "upload a PDF, print a score." CareerLe
 ### Installation
 
 ```bash
-git clone https://github.com/Israt-Isha/CareerLens-AI.git
+git clone https://github.com/israt-jahan-habiba/CareerLens-AI.git
 cd CareerLens-AI
 
 python -m venv venv
@@ -98,7 +98,7 @@ CareerLens-AI
 ├── dataset/               skills.json, careers.json, questions.json (editable)
 ├── models/                reserved for future trained models
 ├── tests/                 pytest suite
-├── screenshots/           add your screenshots here
+├── screenshots/           project demonstration images
 └── requirements.txt
 ```
 
@@ -153,5 +153,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 ---
 
 <div align="center">
-Built by <strong><a href="https://github.com/<your-username>">Israt Jahan</a></strong> — feel free to ⭐ this repo if you found it useful.
+Built by <strong><a href="https://github.com/israt-jahan-habiba">Israt Jahan Habiba</a></strong> — feel free to ⭐ this repo if you found it useful.
 </div>
