@@ -34,7 +34,7 @@ Most "resume analyzer" tutorials stop at "upload a PDF, print a score." CareerLe
 
 </p>
 
-🔗 **Live demo:** _add your deployed link here (Render / Railway / Hugging Face Spaces)_
+🔗 **Live demo:** https://careerlens-ai-tgek.onrender.com/ 
 
 ## Features
 
