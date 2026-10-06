@@ -1,0 +1,12 @@
+{
+  "Python Developer": ["Python", "SQL", "Git", "REST API", "Flask", "Django", "FastAPI", "OOP", "Testing"],
+  "Data Analyst": ["Python", "SQL", "Excel", "Pandas", "NumPy", "Data Visualization", "Statistics", "Data Analysis"],
+  "Machine Learning Engineer": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Git"],
+  "Software Engineer": ["Data Structures", "Algorithms", "OOP", "Git", "SQL", "Java", "Python", "Testing"],
+  "Full-Stack Developer": ["JavaScript", "React", "Node.js", "HTML", "CSS", "SQL", "REST API", "Git"],
+  "Frontend Developer": ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS", "Git", "UI/UX"],
+  "Backend Developer": ["Python", "Java", "Node.js", "SQL", "PostgreSQL", "REST API", "Docker", "Git"],
+  "DevOps Engineer": ["Linux", "Docker", "Kubernetes", "AWS", "CI/CD", "Git", "Python"],
+  "Mobile App Developer": ["Android", "Kotlin", "Flutter", "Firebase", "Java", "Git", "REST API"],
+  "NLP Engineer": ["Python", "NLP", "spaCy", "NLTK", "Machine Learning", "PyTorch", "Scikit-learn"]
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerLens AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-fx" aria-hidden="true"></div>
+
+  <header class="top">
+    <span class="eyebrow">⟡ AI-powered resume intelligence</span>
+    <h1>Career<span class="accent">Lens</span> AI</h1>
+    <p>See your resume the way a hiring system does.</p>
+  </header>
+
+  <main class="layout">
+    <section class="panel" aria-label="Inputs">
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tab-analyze" aria-selected="true" aria-controls="form-analyze">Analyze a resume</button>
+        <button role="tab" id="tab-rank" aria-selected="false" aria-controls="form-rank">Rank candidates</button>
+      </div>
+
+      <form id="form-analyze" role="tabpanel" aria-labelledby="tab-analyze">
+        <label class="drop" for="resume">
+          <input type="file" id="resume" accept="application/pdf" required>
+          <span class="drop-title" id="resume-name">Choose your resume (PDF)</span>
+          <span class="drop-hint">Text-based PDFs only, up to 10 MB</span>
+        </label>
+        <label for="jd">Job description <span class="opt">(optional, enables the ATS score)</span></label>
+        <textarea id="jd" rows="8" placeholder="Paste the job description here"></textarea>
+        <div class="row">
+          <button type="submit" class="primary">Analyze resume</button>
+          <button type="button" class="ghost" id="sample-jd">Use sample job</button>
+        </div>
+      </form>
+
+      <form id="form-rank" role="tabpanel" aria-labelledby="tab-rank" hidden>
+        <label class="drop" for="resumes">
+          <input type="file" id="resumes" accept="application/pdf" multiple required>
+          <span class="drop-title" id="resumes-name">Choose two or more resumes (PDF)</span>
+          <span class="drop-hint">Hold Ctrl or Shift to select several files</span>
+        </label>
+        <label for="jd-rank">Job description</label>
+        <textarea id="jd-rank" rows="8" placeholder="Candidates are ranked against this text" required></textarea>
+        <div class="row"><button type="submit" class="primary">Rank candidates</button></div>
+      </form>
+    </section>
+
+    <section class="results" id="results" aria-live="polite">
+      <div class="empty" id="empty">
+        <div class="empty-icon">
+          <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2>Your report will appear here</h2>
+        <p>Upload a resume to see detected skills, resume quality, career matches and interview questions. Add a job description to get an ATS score and the keywords you are missing.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
