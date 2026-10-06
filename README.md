@@ -25,7 +25,13 @@ Most "resume analyzer" tutorials stop at "upload a PDF, print a score." CareerLe
 
 <!-- Replace with your own screenshot or GIF once you deploy it -->
 <p align="center">
-  <img src="screenshots/demo.png" alt="CareerLens AI screenshot" width="80%">
+  <p align="center">
+  <img src="screenshots/result1.png" alt="CareerLens AI home page" width="80%">
+</p>
+
+<p align="center">
+  <img src="screenshots/result 2.png" alt="CareerLens AI analysis result" width="80%">
+
 </p>
 
 🔗 **Live demo:** _add your deployed link here (Render / Railway / Hugging Face Spaces)_
@@ -147,5 +153,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 ---
 
 <div align="center">
-Built by <strong><a href="https://github.com/<your-username>">Your Name</a></strong> — feel free to ⭐ this repo if you found it useful.
+Built by <strong><a href="https://github.com/<your-username>">Israt Jahan</a></strong> — feel free to ⭐ this repo if you found it useful.
 </div>
