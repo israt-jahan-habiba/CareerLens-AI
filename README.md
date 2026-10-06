@@ -147,5 +147,5 @@ Distributed under the MIT License. See `LICENSE` for details.
 ---
 
 <div align="center">
-Built by <strong><a href="https://github.com/<your-username>">Your Name</a></strong> — feel free to ⭐ this repo if you found it useful.
+Built by <strong><a href="https://github.com/<your-username>">Israt Jahan</a></strong> — feel free to ⭐ this repo if you found it useful.
 </div>
